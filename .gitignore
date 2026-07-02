@@ -5,7 +5,13 @@ desktop.ini
 *.swp
 *~
 
-# 临时 / 中间素材（页面实际引用 persona-0x.png）
+# 本地预览无需入库
+.cursor/
+
+# 交付文件夹（与 Final_Project.zip 重复，仅保留 zip 入库）
+Final_Project/
+
+# 临时 / 中间素材
 persona-*-src.png
 matte_persona.py
 extract_persona.py

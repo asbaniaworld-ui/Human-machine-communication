@@ -4,15 +4,15 @@ Thumbs.db
 desktop.ini
 *.swp
 *~
-
-# 本地预览无需入库
 .cursor/
 
 # 交付文件夹（与 Final_Project.zip 重复，仅保留 zip 入库）
 Final_Project/
+Final_Project (2).zip
 
 # 临时 / 中间素材
 persona-*-src.png
+未命名的设计.png
 matte_persona.py
 extract_persona.py
 
@@ -20,6 +20,3 @@ extract_persona.py
 __pycache__/
 *.pyc
 .venv/
-
-# 本地预览无需入库
-.cursor/

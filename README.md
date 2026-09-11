@@ -2,19 +2,20 @@
 
 深圳大学「人机传播」课程汇报用 **横向翻页 HTML PPT**（13 页），单文件驱动 + 本地素材。
 
-## 离线交付包
+小组：黄之颖（2024080126）· 洪小喻（2024080093）
 
-下载或解压 **`Final_Project.zip`**，内含完整本地运行所需文件：
+## 离线交付包（推荐发给别人）
 
-1. 解压到任意目录
-2. 双击 **`start.bat`**（需 Python）
-3. 浏览器打开 <http://127.0.0.1:8777/index.html>
+下载仓库中的 **`Final_Project.zip`**，解压后：
 
-也可阅读包内 **`使用说明.txt`**。
+1. 双击 **`start.bat`**（需已安装 Python）
+2. 浏览器约 1 秒后自动打开 PPT  
+   若未自动打开：<http://127.0.0.1:8777/index.html>
+3. 也可阅读包内 **`使用说明.txt`**
 
-## 预览
+包内含：HTML PPT、视频、用户画像图、品牌素材、课程 PDF、项目说明 PDF、提交用 PowerPoint。
 
-在项目目录启动本地服务器后访问 `index.html`：
+## 在本仓库预览
 
 ```bash
 python -m http.server 8777
@@ -24,16 +25,19 @@ python -m http.server 8777
 
 **翻页**：`→` / `↓` / `空格` 下一页 · `←` / `↑` 上一页 · 底部圆点跳转
 
-## 文件说明
+## 仓库文件说明
 
 | 文件 | 说明 |
 |------|------|
-| `index.html` | 主文件（样式、页面、ECharts、动效脚本） |
-| `f489eac3bdfc1890095f84709a6caaf2.mp4` | 第 3 页 GPT 演示视频 |
-| `persona-01.png` ~ `persona-04.png` | 第 6 页用户画像卡片（点击图表切换） |
-| `logo-mascot.png` / `logo-badge.png` | 品牌素材 |
+| `index.html` | HTML 主 PPT（样式 / 动效 / ECharts） |
+| `Final_Project.zip` | 完整离线交付压缩包 |
+| `f489eac3….mp4` | 第 3 页 GPT 演示视频 |
+| `persona-01.png` ~ `persona-04.png` | 第 6 页用户画像卡片 |
+| `logo-mascot.png` / `logo-badge.png` / `logo-character.png` | 品牌 LOGO 素材 |
 | `orb-glow.png` | 可选光效素材 |
-| `人机传播.pdf` | 原始文案 / 参考 PDF |
+| `人机传播.pdf` | 课程参考 PDF |
+| `让人与AI的表达连接.pdf` | 项目说明 PDF |
+| `2024080126 黄之颖 2024080093 洪小喻.pptx` | 提交用 PowerPoint 版 |
 
 ## 页面概览
 
